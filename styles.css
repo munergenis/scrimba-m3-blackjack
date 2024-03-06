@@ -1,0 +1,78 @@
+@font-face {
+  font-family: "Billford";
+  src: url(./fonts/billford/Billford.otf);
+}
+
+@font-face {
+  font-family: "Romelio";
+  src: url(./fonts/romelio-sans/Romelio.ttf);
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  background-image: url(./images/background3.jpg);
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: brightness(15%);
+  /* background: linear-gradient(#444, #111); */
+  background-attachment: fixed;
+  text-align: center;
+}
+
+
+.title-black {
+  font-family: "Romelio";
+  color:antiquewhite;
+  font-size: 42px;
+  font-weight: 100;
+}
+
+.title-jack {
+  font-family: "Billford";
+  color:goldenrod;
+  display: block;
+  margin: -35px 0;
+}
+
+h1 {
+  height: 150px;
+  background-image: url(./images/brush-stroke-png-47330.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  padding-top: 90px;
+  margin-top: 0;
+}
+
+main {
+  font-family: "Romelio";
+  color: antiquewhite;
+}
+
+button {
+  font-family: "Romelio";
+  font-size: 16px;
+  background-color: goldenrod;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  padding-top: 13px;
+  margin-bottom: 4px;
+  transition: background-color ease 0.3s;
+}
+
+button:hover {
+  background-color: wheat;
+  scale: 1.03;
+}
+
+button:active {
+  opacity: 0.9;
+  /* background-color: #444; */
+  scale: 1;
+}
